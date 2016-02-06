@@ -137,8 +137,13 @@ install_dotfiles () {
   done
 }
 
-setup_gitconfig
+# setup_gitconfig
 install_dotfiles
+
+# run vim setup script
+# TODO: find all .setup.sh files and execute each one. Use this scripts success and fail functions to report status
+eval ~/.dotfiles/vim/vim.setup.sh
+
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]

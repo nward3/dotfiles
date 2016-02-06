@@ -1,0 +1,9 @@
+# If not running interactively, don't do anything
+[[ "$-" != *i* ]] && return
+
+# custom aliases
+#eval 'gdircolors -b ~/.dir_colors'
+#alias ls="gls --color"
+
+#export PATH="/Users/nicholasward/anaconda/bin:$PATH"
+#export PYTHONPATH="/Users/nicholasward/anaconda/lib/python2.7:$PYTHONPATH"
