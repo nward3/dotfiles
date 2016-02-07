@@ -150,6 +150,12 @@ nmap <CR> o<Esc>
 " disables recording mode
 noremap q <NOP>
 
+" disable arrow keys in normal mode
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP> 
+
 " Easily exit insert mode by typing 'jk'
 inoremap jk <esc>
 
