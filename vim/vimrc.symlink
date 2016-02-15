@@ -163,11 +163,11 @@ inoremap jk <esc>
 :set shiftwidth=4
 set backspace=2 " make backspace work as expected and be able to move to next line above
 
-set number	  " displays the line numbers
-set autoindent    " align the new line indent with the previous line
-set copyindent    " copies previous indentation on autoindentingset showmatch
-set showmatch     " shows matching parenthesis
-set smarttab      " insert tabs on the start of a line according to shiftwidth, not tabstop
-set incsearch     " show search matches as you type"
-set hlsearch      " highlight search terms
-
+set number		" displays the line numbers
+set autoindent	" align the new line indent with the previous line
+set copyindent	" copies previous indentation on autoindentingset showmatch
+set showmatch	" shows matching parenthesis
+set smarttab	" insert tabs on the start of a line according to shiftwidth, not tabstop
+set incsearch	" show search matches as you type"
+set hlsearch	" highlight search terms
+set nowrap		" lines do not wrap
