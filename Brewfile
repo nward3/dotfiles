@@ -20,6 +20,7 @@ brew 'rbenv'
 brew 'roundup'
 brew 'spark'
 brew 'unrar'
+brew 'wget'
 brew 'youtube-dl'
 
 cask '1password'
