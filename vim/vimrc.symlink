@@ -161,6 +161,7 @@ inoremap jk <esc>
 
 :set tabstop=4
 :set shiftwidth=4
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 set backspace=2 " make backspace work as expected and be able to move to next line above
 
 set number		" displays the line numbers
